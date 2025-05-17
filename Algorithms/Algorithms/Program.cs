@@ -2,8 +2,6 @@
 
 int[] a = [5, 2, 4, 6, 1, 3];
 
-InsertionSort insertionSort = new InsertionSort(a);
-
 foreach(int i in a)
 {
     Console.WriteLine(i);
@@ -11,7 +9,7 @@ foreach(int i in a)
 
 Console.WriteLine();
 
-int[] b = insertionSort.Sort();
+int[] b = InsertionSort.Sort(a);
 
 foreach(int j in b)
 {

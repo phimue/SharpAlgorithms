@@ -1,15 +1,8 @@
 ﻿namespace Algorithms.Sort
 {
-    internal class InsertionSort
+    internal static class InsertionSort
     {
-        int[] A { get; set; }
-
-        internal InsertionSort(int[] a) 
-        {
-            A = a;
-        }
-
-        internal int[] Sort()
+        internal static int[] Sort(int[] A)
         {
             int[] a = new int[A.Length];
             A.CopyTo(a, 0);
