@@ -1,4 +1,4 @@
-﻿namespace Algorithms
+﻿namespace Algorithms.Implementations
 {
     internal class InsertionSort
     {
@@ -6,7 +6,7 @@
 
         internal InsertionSort(int[] a) 
         {
-            this.A = a;
+            A = a;
         }
 
         internal int[] Sort()

@@ -1,4 +1,4 @@
-﻿using Algorithms;
+﻿using Algorithms.Implementations;
 
 int[] a = [5, 2, 4, 6, 1, 3];
 
