@@ -1,4 +1,4 @@
-﻿using Algorithms.Implementations;
+﻿using Algorithms.Sort;
 
 int[] a = [5, 2, 4, 6, 1, 3];
 

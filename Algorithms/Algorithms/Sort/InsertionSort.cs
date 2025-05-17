@@ -1,4 +1,4 @@
-﻿namespace Algorithms.Implementations
+﻿namespace Algorithms.Sort
 {
     internal class InsertionSort
     {
